@@ -1,0 +1,138 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  width: 100%;
+}
+
+.header_bg {
+  margin: 0;
+  width: 100%;
+  background-image: url("../images/cover.jpg");
+  position: relative;
+  background-position: center top;
+  height: 100vh;
+  background-size: cover;
+}
+
+.boton-hamburguesa {
+  width: 44px;
+  height: 44px;
+  background-color: #0271bc;
+  background-image: url(../images/ico-menu.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-style: none;
+  position: fixed;
+  z-index: 1;
+  margin-top: 0%;
+  margin-left: 0%;
+}
+
+.boton-go {
+  display: inline-block;
+  width: 76px;
+  height: 45px;
+  border-radius: 22.5px;
+  border: solid 2px #f26002;
+  position: relative;
+}
+
+.boton-go .enlace-boton {
+  text-decoration: none;
+  color: #f26002;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.hero {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  padding: 15px;
+}
+
+.big-title {
+  height: 110px;
+  margin: 0;
+}
+
+.medium-title {
+  margin: 0;
+}
+
+.font-big-title {
+  color: #ffffff;
+  font-size: 42px;
+  font-family: "Roboto Slab", serif;
+}
+
+.font-subtitle {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+.font-blue {
+  color: #8ccbea;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+
+.font-medium-title {
+  color: #000000;
+  font-size: 24px;
+  font-family: "Roboto Slab", serif;
+}
+
+.font-paragraph-alone {
+  color: #4a4a4a;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+
+.font-small-title {
+  color: #000000;
+  font-size: 18px;
+  font-family: "Roboto Slab", serif;
+}
+
+.font-paragraph {
+  color: #000000;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+
+.font-footer-paragraph {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+
+.container-1 {
+  padding: 15px;
+}
+
+.tip {
+  margin-top: 15px;
+}
+
+/*# sourceMappingURL=main.css.map */
