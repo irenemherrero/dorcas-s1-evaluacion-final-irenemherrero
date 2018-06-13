@@ -1,0 +1,15 @@
+.section-2{
+  margin: 15px;
+}
+.container-all-reasons{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.container-reason{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.paragraph{
+  text-align: center;
+}

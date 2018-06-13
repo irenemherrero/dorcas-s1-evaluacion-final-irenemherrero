@@ -18,6 +18,7 @@
   border-radius: 22.5px;
   border: solid 2px $color-boton-1;
   position:relative;
+}
 
 .enlace-boton{
   text-decoration: none;
@@ -26,6 +27,27 @@
   top:50%;
   position:absolute;
   transform:translate(-50%, -50%);
+}
+
+.boton-more-reasons{
+  display: inline-block;
+  width: 184px;
+  height: 45px;
+  border-radius: 22.5px;
+  background-color: $color-boton-1;
+  position: relative;
+  margin:auto;
 
 }
+
+
+.enlace-boton-naranja{
+  text-decoration: none;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: $color-boton-2;
+  width: 180px;
+  text-align: center;
 }
