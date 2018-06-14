@@ -1,4 +1,4 @@
-.boton-hamburguesa{
+.boton-hamburguesa {
   width: 44px;
   height: 44px;
   background-color: $font-color-6;
@@ -11,90 +11,95 @@
   margin-top: 0%;
   margin-left: 0%;
 }
-.boton-bajar{
+
+.boton-bajar {
   height: 45px;
   width: 45px;
   background-color: $color-boton-2;
   border-radius: 50%;
-  left:50%;
-  position:relative;
-  transform:translate(-50%, -50%);
+  left: 50%;
+  position: relative;
+  transform: translate(-50%, -50%);
   top: 75.5px;
-  @media all and (min-width:1280px) {
+
+  @media all and (min-width: 1280px) {
     top: 40px;
-    }
+  }
 }
 
-.flecha-abajo{
-  position:absolute;
-  left:50%;
-  top:50%;
-  position:absolute;
-  transform:translate(-50%, -50%);
+.flecha-abajo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   width: 20px;
   height: 11.7px;
 }
-.boton-go{
+
+.boton-go {
   display: inline-block;
   width: 76px;
   height: 45px;
   border-radius: 22.5px;
   border: solid 2px $color-boton-1;
-  position:relative;
+  position: relative;
   margin-bottom: 30px;
   transition: background-color ease 1s, transform ease 1s;
 
   &:hover {
     background-color: $color-boton-1;
-    transform:scale(1.2);
+    transform: scale(1.2);
   }
-  @media all and (min-width:768px) {
+
+  @media all and (min-width: 768px) {
     width: 91px;
     margin-bottom: 21px;
-    }
+  }
 }
 
-.enlace-boton{
+.enlace-boton {
   text-decoration: none;
   color: $color-boton-1;
-  left:50%;
-  top:50%;
-  position:absolute;
-  transform:translate(-50%, -50%);
-  padding:15px;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  padding: 15px;
   transition: color ease 1s;
 
   &:hover {
     color: $color-boton-2;
-}
+  }
 }
 
-.boton-more-reasons{
+.boton-more-reasons {
   display: inline-block;
   width: 184px;
   height: 45px;
   border-radius: 22.5px;
   background-color: $color-boton-1;
   position: relative;
-  margin:auto;
+  margin: auto;
   transition: background-color ease 1s, transform ease 1s;
 
   &:hover {
     background-color: $color-boton-2;
-    transform:scale(1.2);
+    transform: scale(1.2);
     border: 0.5px solid $color-boton-1;
   }
-  @media all and (min-width:768px) {
+
+  @media all and (min-width: 768px) {
     grid-area: col5;
     width: 210px;
-    }
-    @media all and (min-width:1280px) {
-      grid-area: col5;
-      width: 255px;
-      }
+  }
+
+  @media all and (min-width: 1280px) {
+    grid-area: col5;
+    width: 255px;
+  }
 }
 
-.enlace-boton-naranja{
+.enlace-boton-naranja {
   text-decoration: none;
   left: 50%;
   top: 50%;
@@ -103,36 +108,36 @@
   color: $color-boton-2;
   width: 180px;
   text-align: center;
-  padding:15px;
+  padding: 15px;
   transition: color ease 1s;
 
   &:hover {
     color: $color-boton-1;
   }
-  @media all and (min-width:768px) {
-    font-size:$font-size-big-tab;
-    }
+
+  @media all and (min-width: 768px) {
+    font-size: $font-size-big-tab;
+  }
 }
 
-.boton-subir{
+.boton-subir {
   height: 45px;
   width: 45px;
   background-color: $color-boton-2;
   border-radius: 50%;
   bottom: 85px;
-  left:50%;
-  position:absolute;
-  transform:translate(-50%, -50%);
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
   box-shadow: 1px 1px rgba(0, 0, 0, 0.29), inset 1px 1px rgba(255, 255, 255, 0.44);
-  z-index:2;
+  z-index: 2;
 }
 
-.flecha-arriba{
-  position:absolute;
-  left:50%;
-  top:50%;
-  position:absolute;
-  transform:translate(-50%, -50%);
+.flecha-arriba {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   width: 20.6px;
   height: 24px;
 }

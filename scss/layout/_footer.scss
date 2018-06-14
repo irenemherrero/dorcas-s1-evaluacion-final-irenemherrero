@@ -1,25 +1,26 @@
-.container-footer{
-  position:relative;
+.container-footer {
+  position: relative;
   background-color: $background-color-2;
   height: 128px;
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   text-align: center;
 }
 
-.footer-line-1{
+.footer-line-1 {
   margin-top: 38px;
-  margin-bottom: 0px;
-  display:inline-block;
+  margin-bottom: 0;
+  display: inline-block;
   padding: 7px;
 }
 
-.footer-line-2{
-  margin-top:0px;
+.footer-line-2 {
+  margin-top: 0;
   margin-bottom: 30px;
-  display:inline-block;
+  display: inline-block;
   padding: 7px;
 }
-.corazon{
+
+.corazon {
   color: $color-boton-1;
 }

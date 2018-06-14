@@ -1,12 +1,13 @@
-.header_bg{
-  margin:0;
+.header_bg {
+  margin: 0;
   width: 100%;
   background-image: url("../images/cover.jpg");
   position: relative;
   background-position: center top;
   height: 568px;
   background-size: cover;
-  @media all and (min-width:768px) {
+
+  @media all and (min-width: 768px) {
     height: 768px;
-    }
+  }
 }
