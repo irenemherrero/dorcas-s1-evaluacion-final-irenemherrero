@@ -1,0 +1,17 @@
+.container-footer{
+  position:relative;
+  background-color: $background-color-2;
+  height: 128px;
+  display: flex;
+  flex-direction:column;
+  text-align: center;
+}
+
+.footer-line-1{
+  margin-top: 38px;
+  margin-bottom: 0px;
+}
+
+.footer-line-2{
+  margin-bottom: 30px;
+}
