@@ -2,7 +2,8 @@
   position: absolute;
   left:50%;
   top:50%;
-  transform:translate(-50%, -50%);
+  transform:translate(-50%, 0%);
+  bottom: 0px;
 }
 
 .big-title{
@@ -15,6 +16,8 @@
 
 .medium-title{
   margin-top: 10px;
+  margin-bottom:0px;
   text-align: center;
   position: relative;
+  height: 21px;
 }

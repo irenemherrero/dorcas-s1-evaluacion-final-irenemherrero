@@ -16,7 +16,7 @@ body {
   background-image: url("../images/cover.jpg");
   position: relative;
   background-position: center top;
-  height: 100vh;
+  height: 568px;
   background-size: cover;
 }
 
@@ -37,10 +37,15 @@ body {
 .footer-line-1 {
   margin-top: 38px;
   margin-bottom: 0px;
+  display: inline-block;
+  padding: 7px;
 }
 
 .footer-line-2 {
+  margin-top: 0px;
   margin-bottom: 30px;
+  display: inline-block;
+  padding: 7px;
 }
 
 .section-2 {
@@ -49,14 +54,14 @@ body {
   background-color: #eff9ff;
 }
 
-.container-all-reasons {
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-}
-
 .reasons-title {
   margin: 15px auto 22.5px;
   text-align: center;
+}
+
+.container-all-reasons {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 
 .container-reason {
@@ -70,7 +75,7 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin: 22.5px auto;
+  margin: 22.5px;
 }
 
 .small-title-reason {
@@ -108,7 +113,7 @@ body {
   position: relative;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  top: 49px;
+  top: 75.5px;
 }
 
 .flecha-abajo {
@@ -129,7 +134,7 @@ body {
   border-radius: 22.5px;
   border: solid 2px #f26002;
   position: relative;
-  margin: 30px 0px 45px;
+  margin: 30px 0px 30px;
   -webkit-transition: background-color ease 1s, -webkit-transform ease 1s;
   transition: background-color ease 1s, -webkit-transform ease 1s;
   transition: background-color ease 1s, transform ease 1s;
@@ -229,8 +234,9 @@ body {
   position: absolute;
   left: 50%;
   top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+  bottom: 0px;
 }
 
 .big-title {
@@ -243,8 +249,10 @@ body {
 
 .medium-title {
   margin-top: 10px;
+  margin-bottom: 0px;
   text-align: center;
   position: relative;
+  height: 21px;
 }
 
 .font-big-title {
@@ -310,7 +318,7 @@ body {
 
 .small-title {
   width: 290px;
-  margin: 0;
+  margin: 1;
 }
 
 .paragraph-alone {
