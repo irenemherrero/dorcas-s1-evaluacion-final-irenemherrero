@@ -48,6 +48,10 @@ body {
   padding: 7px;
 }
 
+.corazon {
+  color: #f26002;
+}
+
 .section-2 {
   padding: 15px;
   height: 624px;
@@ -259,6 +263,7 @@ body {
   color: #ffffff;
   font-size: 42px;
   font-family: "Roboto Slab", serif;
+  text-transform: uppercase;
 }
 
 .font-subtitle {
