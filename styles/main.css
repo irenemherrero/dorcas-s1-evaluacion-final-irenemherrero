@@ -262,30 +262,35 @@ body {
   font-size: 42px;
   font-family: "Roboto Slab", serif;
   text-transform: uppercase;
+  font-weight: 700;
 }
 
 .font-subtitle {
   color: #fff;
   font-size: 16px;
   font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
 
 .font-blue {
   color: #8ccbea;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
 
 .font-medium-title {
   color: #000;
   font-size: 24px;
   font-family: "Roboto Slab", serif;
+  font-weight: 700;
 }
 
 .font-paragraph-alone {
   color: #4a4a4a;
   font-size: 18px;
   font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
 
 .font-small-title {
@@ -299,12 +304,14 @@ body {
   color: #000;
   font-size: 18px;
   font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
 
 .font-footer-paragraph {
   color: #fff;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
 
 .section-1 {
