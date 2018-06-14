@@ -20,6 +20,9 @@
   position:relative;
   transform:translate(-50%, -50%);
   top: 75.5px;
+  @media all and (min-width:1280px) {
+    top: 40px;
+    }
 }
 
 .flecha-abajo{
@@ -38,13 +41,17 @@
   border-radius: 22.5px;
   border: solid 2px $color-boton-1;
   position:relative;
-  margin: 30px 0px 30px;
+  margin-bottom: 30px;
   transition: background-color ease 1s, transform ease 1s;
 
   &:hover {
     background-color: $color-boton-1;
     transform:scale(1.2);
   }
+  @media all and (min-width:768px) {
+    width: 91px;
+    margin-bottom: 21px;
+    }
 }
 
 .enlace-boton{
@@ -77,6 +84,14 @@
     transform:scale(1.2);
     border: 0.5px solid $color-boton-1;
   }
+  @media all and (min-width:768px) {
+    grid-area: col5;
+    width: 210px;
+    }
+    @media all and (min-width:1280px) {
+      grid-area: col5;
+      width: 255px;
+      }
 }
 
 .enlace-boton-naranja{
@@ -94,6 +109,9 @@
   &:hover {
     color: $color-boton-1;
   }
+  @media all and (min-width:768px) {
+    font-size:$font-size-big-tab;
+    }
 }
 
 .boton-subir{

@@ -12,6 +12,16 @@
   width: 290px;
   margin:0;
   text-align: center;
+  @media all and (min-width:768px) {
+    height: 212px;
+    width: 690px;
+    font-size: $font-size-gig-tab;
+    }
+    @media all and (min-width:1280px) {
+      height: 264px;
+      width: 730px;
+      font-size: $font-size-gig-desk;
+      }
 }
 
 .medium-title{
@@ -20,4 +30,10 @@
   text-align: center;
   position: relative;
   height: 21px;
+  @media all and (min-width:768px) {
+    height: 32px;
+    width: 360px;
+    font-size: $font-size-big-desk;
+    margin: auto;
+    }
 }

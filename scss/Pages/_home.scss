@@ -1,16 +1,52 @@
 .section-1{
   height: 376px;
+  @media all and (min-width:768px) {
+  height: 330px;
+    }
+    @media all and (min-width: 1280px) {
+    height: 360px;
+    }
 }
 .container-1{
   padding: 15px;
+  @media all and (min-width:768px) {
+  padding: 30px 39px;
+  height: 100%;
+  }
+  @media all and (min-width: 1280px) {
+  padding: 60px 265px;
+  }
+
 }
 .tip{
   margin-top:15px;
+  @media all and (min-width:768px) {
+  margin-top: 30px;
+    }
+    @media all and (min-width: 1280px) {
+    margin-top:0px;
+    font-size: $font-size-peq-desk;
+    }
   }
 .small-title{
   width: 290px;
   margin: 1;
+  @media all and (min-width:768px) {
+  font-size: $font-size-xxl-tab;
+  width: 690px;
+  height: 45px;
+    }
+    @media all and (min-width: 1280px) {
+    margin-top:0px;
+    font-size: $font-size-xxl-desk;
+    }
 }
 .paragraph-alone{
   margin: 15px 0px;
+  @media all and (min-width:768px) {
+  font-size: $font-size-big-tab;
+  width: 690px;
+  height: 60px;
+  margin: 30px 0px;
+    }
 }
