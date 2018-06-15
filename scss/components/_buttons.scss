@@ -3,13 +3,10 @@
   height: 44px;
   background-color: $font-color-6;
   background-image: url(../images/ico-menu.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  border-style: none;
   position: fixed;
   z-index: 1;
-  margin-top: 0%;
-  margin-left: 0%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .boton-bajar {
@@ -73,7 +70,6 @@
 }
 
 .boton-more-reasons {
-  display: inline-block;
   width: 184px;
   height: 45px;
   border-radius: 22.5px;
@@ -129,7 +125,7 @@
   left: 50%;
   position: absolute;
   transform: translate(-50%, -50%);
-  box-shadow: 1px 1px rgba(0, 0, 0, 0.29), inset 1px 1px rgba(255, 255, 255, 0.44);
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.29);
   z-index: 2;
 }
 

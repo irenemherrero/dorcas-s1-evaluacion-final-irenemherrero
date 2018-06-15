@@ -37,14 +37,12 @@ body {
 .footer-line-1 {
   margin-top: 38px;
   margin-bottom: 0;
-  display: inline-block;
   padding: 7px;
 }
 
 .footer-line-2 {
   margin-top: 0;
   margin-bottom: 30px;
-  display: inline-block;
   padding: 7px;
 }
 
@@ -99,13 +97,10 @@ body {
   height: 44px;
   background-color: #0271bc;
   background-image: url(../images/ico-menu.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  border-style: none;
   position: fixed;
   z-index: 1;
-  margin-top: 0%;
-  margin-left: 0%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .boton-bajar {
@@ -168,7 +163,6 @@ body {
 }
 
 .boton-more-reasons {
-  display: inline-block;
   width: 184px;
   height: 45px;
   border-radius: 22.5px;
@@ -217,8 +211,8 @@ body {
   position: absolute;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  -webkit-box-shadow: 1px 1px rgba(0, 0, 0, 0.29), inset 1px 1px rgba(255, 255, 255, 0.44);
-  box-shadow: 1px 1px rgba(0, 0, 0, 0.29), inset 1px 1px rgba(255, 255, 255, 0.44);
+  -webkit-box-shadow: 1px 1px rgba(0, 0, 0, 0.29);
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.29);
   z-index: 2;
 }
 
@@ -312,6 +306,28 @@ body {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
+}
+
+.section-0 {
+  background-color: #f26002;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.titulo-anonymous {
+  color: #fff;
+}
+
+.fecha {
+  color: #fff;
 }
 
 .section-1 {
@@ -419,6 +435,10 @@ body {
     width: 360px;
     font-size: 24px;
     margin: auto;
+  }
+
+  .section-0 {
+    background-color: #0271bc;
   }
 
   .section-1 {
