@@ -1,6 +1,8 @@
 Evaluación final - Sprint 1
 ----
 
+Ejercicio realizado en el Sprint 1 del curso de Programación Front-End de Adalab, en el que se evalúan los conocimientos adquiridos durante dicho periodo. 
+
 Objetivo
 ------
 
@@ -10,6 +12,7 @@ Hitos
 ----------
 
 1. Maquetación
+
 En primer lugar se realiza la maquetación sobre un diseño dado.
       
 - El primer módulo (hero) debe ocupar, como mínimo el alto de la ventana del navegador
